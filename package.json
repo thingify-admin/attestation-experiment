@@ -2,7 +2,7 @@
     "name": "thingify-attestation-experiment",
     "version": "0.0.0",
     "scripts": {
-        "build": "parcel build index.html",
+        "build": "parcel build index.html --public-url '.'",
         "buildWatch": "parcel watch index.html",
         "serve": "parcel serve index.html --port 8080"
     },
